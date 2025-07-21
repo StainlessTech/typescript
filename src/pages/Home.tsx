@@ -14,8 +14,8 @@ const Home = () => {
     );
     setGetUser(res.data.data);
   };
-
-  useEffect(() => {
+ 
+  useEffect(() => { 
     getMyUser();
   }, []);
   return (
